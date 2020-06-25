@@ -1,0 +1,69 @@
+@import './modules/reset';
+@import 'https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@400;600&display=swap';
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.4;
+  color: #212121;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+.github-btn {
+  background-color: #f9f9f9;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  transition: .3s;
+}
+
+.github-btn:hover {
+  background-color: #efefef;
+}
+
+.github-btn span {
+  margin-left: 12px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content {
+  margin-top: 25px;
+  border-top: 4px solid #212121;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.search {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #212121;
+  padding: 6px;
+  width: 100%;
+}
+
+.search:focus {
+  outline: 3px solid #efefef;
+}
