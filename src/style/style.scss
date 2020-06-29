@@ -60,10 +60,25 @@ body {
 .search {
   font-family: 'Roboto', sans-serif;
   border: 1px solid #212121;
+  margin: 40px 0 20px 0;
   padding: 6px;
   width: 100%;
 }
 
 .search:focus {
   outline: 3px solid #efefef;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,td {
+  border: 1px solid #212121;
+  padding: 10px 15px;
+}
+
+.table-title {
+  background-color: #e6e6e6;
 }
